@@ -164,6 +164,11 @@ textarea {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 20%;
+    }
+
+    .programa_entrada {
+        width: 90%;
     }
 
     .programa_logo {
@@ -171,7 +176,7 @@ textarea {
     }
 
     .programa_salida {
-        width: 50%;
+        width: 80%;
         margin-bottom: 10%;
     }
 }
