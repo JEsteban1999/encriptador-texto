@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header></header>
+    <main class="programa">
+        <section class="programa_entrada">
+            <img src="../assets/Vector.png" class="programa_logo">
+            <div class="programa_texto">
+                <textarea class="programa_entrada_texto" value="Ingrese un texto aqui" cols="35" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+            <div class="programa_advertencia">
+                <img src="../assets/bi_exclamation-circle-fill.png">
+                <p class="programa_advertencia_texto">Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="programa_botones_encriptar">
+                <button type="button" onclick="encriptar()" class="boton_encriptar">Encriptar</button>
+                <button type="button" onclick="desencriptar()" class="boton_desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="programa_salida">
+            <div id="salida" class="salida_inicial">
+                <img class="imagen_sin_texto" src="../assets/Muñeco.png">
+                <h2 class="mensaje_titulo">Ningún mensaje fue encontrado</h2>
+                <p class="mensaje_descripcion">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script type="text/javascript" src="../js/app.js"></script>
+</body>
+</html>
